@@ -160,12 +160,6 @@
   line-height: 23.4px;
   color: var(--text-color, #f1b2ce);
 }
-.content__section {
-  display: grid;
-  grid-template-columns: 315px 1fr;
-  padding: 0px 20px;
-  gap: 20px;
-}
 .concentrate-better__container .article__title {
   font-weight: normal;
 }
