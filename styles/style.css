@@ -312,6 +312,9 @@
     grid-auto-flow: row;
     gap: 0px;
   }
+  .gallery {
+    padding: 0px 10px;
+  }
   .gallery__list {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
