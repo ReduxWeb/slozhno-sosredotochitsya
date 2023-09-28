@@ -41,9 +41,7 @@
   background-color: transparent;
   cursor: pointer;
 }
-.header__theme-menu-item {
-  border: 1px solid transparent;
-}
+
 .header__title {
   align-self: center;
   color: var(--heading-text, #db00ff);
