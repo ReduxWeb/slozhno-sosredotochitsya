@@ -257,10 +257,6 @@
   .header {
     min-block-size: 1024px;
   }
-  .header__theme-menu-list {
-    gap: 13px;
-    flex-direction: column;
-  }
   .header__theme-menu {
     justify-self: end;
     margin-block-start: 23%;
@@ -274,6 +270,7 @@
     margin-inline-end: 0px;
   }
   .header__theme-menu-list {
+    gap: 13px;
     flex-direction: column;
   }
   .content__section {
