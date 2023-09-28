@@ -30,6 +30,9 @@
   .header__theme-menu-item:has(.header__theme-menu-button_active) {
     border-color: var(--text-color, #353430);
   }
+  .content__title {
+    color: var(--text-color, #353430);
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -58,6 +61,9 @@
     border-color: var(--text-color, #353430);
   }
   .header__theme-menu-button {
+    color: var(--text-color, #353430);
+  }
+  .content__title {
     color: var(--text-color, #353430);
   }
 }
