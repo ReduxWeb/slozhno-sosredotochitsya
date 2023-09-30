@@ -16,6 +16,7 @@
   }
   .page {
     background-image: var(--bg-image);
+    background-color: #fff1f7;
   }
   .header__theme-menu-button {
     color: var(--text-color, #353430);
@@ -47,6 +48,7 @@
   }
   .page {
     background-image: var(--bg-image);
+    background-color: #fff1f7;
   }
   .decor {
     display: none;
