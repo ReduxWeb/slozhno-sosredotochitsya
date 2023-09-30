@@ -271,6 +271,9 @@
     justify-self: end;
     margin-block-start: 166px;
   }
+  .header__title {
+    font-size: 120px;
+  }
   .header__text {
     max-width: 364px;
   }
@@ -290,6 +293,9 @@
   }
   .concentration__container {
     grid-template-columns: auto;
+  }
+  .footer__title {
+    font-size: 120px;
   }
 }
 
