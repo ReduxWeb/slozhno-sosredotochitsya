@@ -33,16 +33,6 @@
   display: flex;
   gap: 10px;
 }
-.header__theme-menu-button {
-  border: none;
-  padding: 0 13px;
-  color: var(--accent-color, #ff0070);
-  font-family: var(--font-family, "IBM Plex Mono", monospace);
-  line-height: 18px;
-  text-transform: lowercase;
-  background-color: transparent;
-  cursor: pointer;
-}
 
 .header__title {
   align-self: center;
