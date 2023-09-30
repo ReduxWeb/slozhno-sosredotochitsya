@@ -287,7 +287,6 @@
   }
   .concentration .content__title {
     max-width: 236px;
-    margin-block-end: 20px;
   }
   .concentration__container {
     grid-template-columns: auto;
