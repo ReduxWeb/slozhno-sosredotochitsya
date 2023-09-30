@@ -6,10 +6,10 @@
 
 .page.theme_dark {
   --bg-color: #000028;
+  --subtitle-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --heading-text: #db00ff;
-  --hover-button: rgba(255, 0, 112, 0.4);
   --box-shadow: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
 }

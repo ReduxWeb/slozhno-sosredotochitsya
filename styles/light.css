@@ -5,45 +5,44 @@
 */
 
 .page.theme_light {
-  --bg-color: #353430;
+  --bg-color: #fff1f7;
+  --subtitle-color: #353430;
+  --heading-title: #353430;
+  --border-color: #353430;
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --heading-text: #ffc2e6;
   --hover-button: rgba(255, 0, 112, 0.4);
   --bg-image: url(../images/cover-image-light.png);
-  .decor {
-    display: none;
-  }
   .page {
     background-image: var(--bg-image);
     background-color: #fff1f7;
   }
-  .header__theme-menu-button {
-    color: var(--text-color, #353430);
+  .decor {
+    display: none;
   }
-  .header__theme-menu-item:hover {
-    border-color: var(--text-color, #353430);
-  }
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--text-color, #353430);
-  }
-
-  .header__theme-menu-item:has(.header__theme-menu-button_active) {
-    border-color: var(--text-color, #353430);
-  }
-  .content__title {
-    color: var(--text-color, #353430);
+  @media (min-width: 320px) and (max-width: 768px) {
+    .header__title {
+      color: var(--heading-text);
+      text-shadow: 4px 4px 0px var(--accent-color);
+    }
+    .footer__title {
+      color: var(--heading-text);
+      text-shadow: 2px 2px 0px var(--accent-color);
+    }
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #353430;
+    --bg-color: #fff1f7;
+    --subtitle-color: #353430;
+    --heading-title: #353430;
+    --border-color: #353430;
     --text-color: #353430;
     --accent-color: #ff8dcb;
     --heading-text: #ffc2e6;
     --hover-button: rgba(255, 0, 112, 0.4);
-    --box-shadow: #ff0070;
     --bg-image: url(../images/cover-image-light.png);
   }
   .page {
@@ -53,19 +52,14 @@
   .decor {
     display: none;
   }
-  .header__theme-menu-item:hover {
-    border-color: var(--text-color, #353430);
-  }
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--text-color, #353430);
-  }
-  .header__theme-menu-item:has(.header__theme-menu-button_active) {
-    border-color: var(--text-color, #353430);
-  }
-  .header__theme-menu-button {
-    color: var(--text-color, #353430);
-  }
-  .content__title {
-    color: var(--text-color, #353430);
+  @media (min-width: 320px) and (max-width: 768px) {
+    .header__title {
+      color: var(--heading-text);
+      text-shadow: 4px 4px 0px var(--accent-color);
+    }
+    .footer__title {
+      color: var(--heading-text);
+      text-shadow: 2px 2px 0px var(--accent-color);
+    }
   }
 }
