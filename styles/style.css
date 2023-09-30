@@ -172,6 +172,17 @@
   text-decoration: none;
   text-shadow: 3px 2px var(--accent-color, #ff0070);
 }
+.article__link:hover {
+  border-bottom: 1px solid var(--border-bottom, #f1b2ce);
+  transition: all 0.3s ease-in;
+}
+.article__link:focus {
+  outline: none;
+}
+.article__link:focus-visible {
+  outline: 1px solid var(--border-bottom, #f1b2ce);
+  transition: all 0.3s ease-in;
+}
 .content__section {
   display: grid;
   grid-template-columns: minmax(236px, 1fr) 2fr;
