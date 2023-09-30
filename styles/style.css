@@ -272,6 +272,7 @@
     margin-block-start: 166px;
   }
   .header__title {
+    margin-left: -3%;
     font-size: 120px;
   }
   .header__text {
@@ -283,6 +284,7 @@
   }
   .content__section {
     grid-template-columns: 236px auto;
+    gap: 20px;
   }
   .concentration {
     display: grid;
