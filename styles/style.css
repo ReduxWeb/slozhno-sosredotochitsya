@@ -200,6 +200,9 @@
   gap: 20px;
   margin-block-end: 80px;
 }
+.concentration .content__title {
+  max-width: 315px;
+}
 .concentration__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -327,6 +330,14 @@
   .decorated-zone::before {
     bottom: 10px;
     left: 10px;
+  }
+  .decor::before {
+    top: -6px;
+    right: 18px;
+  }
+  .decor::after {
+    top: -2px;
+    right: 1px;
   }
   .header__theme-menu {
     justify-self: end;

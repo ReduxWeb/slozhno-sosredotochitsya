@@ -16,4 +16,7 @@
   --hover-button: rgba(255, 0, 112, 0.4);
   --bg-image: url(../images/cover-image-dark.png);
   --font-family: "IBM Plex Mono", monospace;
+  .decor {
+    display: block;
+  }
 }
